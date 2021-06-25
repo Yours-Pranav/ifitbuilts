@@ -72,8 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey hi {}, I'm {}!
-I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities!
+I am only made for development purpose want to be tester join my support chat!!
 """
 
 HELP_STRINGS = """
@@ -226,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                         ],
                         [
-                            InlineKeyboardButton(
+seeInlineKeyboardButton(
                                 text="🚑 Support",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
