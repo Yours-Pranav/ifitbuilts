@@ -29,7 +29,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:acD5fbEcbCC4fbE6E6Agf*5D*EF*5B*4@postgres.railway.internal:5432/railway"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:acD5fbEcbCC4fbE6E6Agf*5D*EF*5B*4@roundhouse.proxy.rlwy.net:34448/railway"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
